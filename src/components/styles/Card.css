@@ -1,7 +1,7 @@
 .card {
     border: none;
     border-radius: 8px;
-    background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB);
+    /* background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB); */
 }
 .Fitness-User-Info {
     margin-top: 50px;
