@@ -1,10 +1,11 @@
 import React from 'react'
 import Card from './Card'
 
-const ExerciseList = (props) => (
+const ExerciseList = ({exercises}) => (
     <div>
-        { props.exercises.map((exercise) => (
+        { exercises.map((exercise) => (
             <Card 
+                key={exercise.id}
                 title={exercise.title}
                 description={exercise.description}
                 img={exercise.img}
@@ -12,7 +13,8 @@ const ExerciseList = (props) => (
                 rightColor={exercise.rightColor}
             />
         ))}
-    </div>
+    </div>    
 )
+
 
 export default ExerciseList
