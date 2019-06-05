@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 
 const ExerciseList = ({exercises}) => (
-    <div>
+    <React.Fragment>
         { exercises.map((exercise) => (
             <Card 
                 key={exercise.id}
@@ -13,7 +13,7 @@ const ExerciseList = ({exercises}) => (
                 rightColor={exercise.rightColor}
             />
         ))}
-    </div>    
+    </React.Fragment>    
 )
 
 

@@ -44,7 +44,7 @@ class Exercises extends React.Component {
             return <FatalError />
 
         return(
-            <div>
+            <React.Fragment>
                 <Welcome 
                     username="Raúl"
                 />
@@ -53,7 +53,7 @@ class Exercises extends React.Component {
                 />
 
                 <AddButtom />
-            </div>
+            </React.Fragment>
         )
     }
 
