@@ -1,9 +1,7 @@
 import React from 'react'
 
 class ExerciseForm extends React.Component {
-
-
-    render(){
+     render(){
         const { onChange, onSubmit, form } = this.props
 
         return (
