@@ -3,6 +3,7 @@ import '../components/styles/ExerciseNew.css'
 import Loading from '../components/Loading'
 import FatalError from './500'
 import ExerciseNew from './ExerciseNew'
+import url from '../config'
 
 const ExerciseNewContainer = ({history}) => {
     const [ form, setForm ] = useState({title: '',
@@ -33,7 +34,7 @@ const ExerciseNewContainer = ({history}) => {
                 },
                 body: JSON.stringify(form)
             }
-            await fetch('http://localhost:8000/api/exercises', config)
+            await fetch(`${url}/exercises`, config)
             setLoading(false)
             history.push('/exercise')
         } catch (error) {

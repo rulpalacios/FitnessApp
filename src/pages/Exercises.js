@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Welcome from '../components/Welcome'
 import ExerciseList from '../components/ExerciseList'
 import AddButtom from '../components/AddButton'
 
 const Exercises = ({data}) => (
-    <React.Fragment>
+    <Fragment>
         <Welcome 
             username="Raúl"
         />
@@ -12,7 +12,7 @@ const Exercises = ({data}) => (
             exercises={data}
         />
         <AddButtom />
-    </React.Fragment>
+    </Fragment>
 )
 
 export default Exercises
