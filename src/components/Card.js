@@ -12,7 +12,7 @@ const Card = ({ title, description, img, leftColor, rightColor }) => (
     >
         <div className="card-body">
             <div className="row center">
-                <div className="col-6">
+                <div className="col-5">
                     <img src={img || emptyImg} className="float-right" alt="exercise"/>
                 </div> 
                 <div className="col-6 Fitness-Card-Info">
