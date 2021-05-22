@@ -1,24 +1,28 @@
 .card {
     margin-top: 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa;    
     /* background: url('../../images/circles.png') no-repeat, linear-gradient(to right, #A74CF2, #617BFB); */
 }
 .Fitness-Card {
-    max-height: 140px;
+    max-height: 180px;
     max-width: 520px;
 }
 .Fitness-Card-Info {
     padding-left: 0;
-    padding-right: 75px;
+    padding-right: 15px;
 }
 .Fitness-Card-Info h1{
-    font-size: 23px;
+    font-size: 38px;
     color: white;
+    text-align: right;
+    margin-bottom: 25px;
 }
 .Fitness-Card-Info p{
-    font-size: 11px;
+    font-size: 13px;
     color: white;
+    font-weight: 600;
 }
 .Fitness-Add {
     display: block;

@@ -6,7 +6,7 @@ import AddButtom from '../components/AddButton'
 const Exercises = ({data}) => (
     <Fragment>
         <Welcome 
-            username="Raúl"
+            username="USER"
         />
         <ExerciseList 
             exercises={data}
